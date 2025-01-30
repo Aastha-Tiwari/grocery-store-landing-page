@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html ,body{
+    width:100vw;
+    overflow-x:hidden;
+}
+
+/* Nav CSS */
+.logo{
+    height:55px;
+}
+.navbar-css{
+    justify-content: space-between;
+}
+.search-css{
+    width:100%;
+}
+.complete-nav{
+    background-color: aliceblue;
+}
+
+/* Hero Section CSS */
+.hero-image{
+    height:30vh;
+    object-fit: cover;
+}
+
+/* Headings CSS */
+.line{
+    display:inline-block;
+    width:100px;
+    height:5px;
+    background-color: #33c380;
+    border:2px solid #198754;
+}
+.about-main-heading{
+    font-weight:700;
+    color:#333333;
+}
+
+/* BestSeller Cards */
+.bestseller-card{
+    width:100px;
+}
+.grocery-section{
+    padding-top:5rem;
+}
+
+/* Street Food */
+.overlay-title{
+    text-shadow: 3px 3px 2px black;
+}
+.overlay-desc{
+    text-shadow: 2px 2px 2px black;
+}
+.fast-food-section{
+    padding-block:5rem;
+}
+
+/* Fruits and vegetables */
+.card-image{
+    height:280px;
+    object-fit: cover;
+}
+
+/* NewsLetter */
+.newsletter-section {
+    text-align: center;
+    padding-bottom:8rem;
+}
+.newsletter-section input , .newsletter-section button{
+    padding: 0.5rem 0.8rem;
+}
+.newsletter-desc-parent{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+}
+
+/* Footer css */
+footer{
+    background-color: aliceblue;
+}
+
+/* Cart icon css */
+.cart-number{
+    right:1px;
+    font-size:10px;
+}
+
+/* Toast notification css */
+.toast-logo{
+    height:60px;
+    width:60px;
+}
+
+/* Media queries */
+@media screen and (max-width:360px){
+    .hero-image{
+        height:24vh;
+    }
+}
+
+@media screen and (min-width:768px){
+    .search-css{
+        width:35vw;
+    }
+    .bestseller-card{
+        width:150px;
+    }
+}
+@media screen and (min-width:1024px){
+    .hero-image{
+        height:50vh;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .hero-image{
+        height:80vh;
+    }
+}
+
