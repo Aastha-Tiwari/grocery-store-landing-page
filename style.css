@@ -3,9 +3,9 @@
     padding: 0;
     box-sizing:border-box;
 }
-html ,body{
-    width:100vw;
-    overflow-x:hidden;
+.wrapper-container{
+    width:100%;
+    overflow-x: hidden;
 }
 
 /* Nav CSS */
